@@ -1,0 +1,11 @@
+package com.singtel.test.mdl;
+
+public enum CustomExceptionType {
+    VERIFICATION_FAILED,
+    INCOMPLETE_PARAMS,
+    PROCESSING_FAILED,
+    DRIVER_NOT_INITIALIZED,
+    UNSATISFIED_IMPLICIT_ASSUMPTION,
+    UNDEFINED,
+    ELEMENT_NOT_VISIBLE
+}
